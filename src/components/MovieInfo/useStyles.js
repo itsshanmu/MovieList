@@ -3,8 +3,8 @@ import { Autocomplete } from "@material-ui/lab";
 
 const useStyles = makeStyles(() => ({ 
     movieImg:{      
-        height : '500px',
-        width : '400px',
+        height : '300px',
+        width : '200px',
         borderRadius: '10px',
         alignItems: 'center'
     },

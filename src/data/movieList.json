@@ -11,46 +11,46 @@
 		{
 			"id": "102",
 			"title": "Harry Potter",
-			"releaseYear": "2008",
-			"director": "Mark Osborne",
-			"cast": "Jack Balck, Jackie chen",
-			"genre": "Action, Comedy",
+			"releaseYear": "2001",
+			"director": "Chris Columbus",
+			"cast": "Daniel Radcliffe, Rupert Grint",
+			"genre": "Adventure, Thriller",
             "img":"harrypotter.jpg"
 		},
 		{
 			"id": "103",
 			"title": "Avengers",
-			"releaseYear": "2010",
-			"director": "Mark Osborne",
-			"cast": "Jack Balck, Jackie chen",
-			"genre": "Action, Comedy",
+			"releaseYear": "2012",
+			"director": "Joss Whedon",
+			"cast": "Robert Downey Jr., Chris Evans",
+			"genre": "Action",
             "img":"avengers.jpg"
 		},
         {
 			"id": "104",
 			"title": "Avatar",
 			"releaseYear": "2009",
-			"director": "Mark Osborne",
-			"cast": "Jack Balck, Jackie chen",
-			"genre": "Action, Comedy",
+			"director": "James Cameron",
+			"cast": "Sam Worthington, Zoe Saldana",
+			"genre": "Action, Adventure",
             "img":"avatar.jpg"
 		},
         {
 			"id": "105",
 			"title": "Spider-Man",
-			"releaseYear": "2010",
-			"director": "Mark Osborne",
-			"cast": "Jack Balck, Jackie chen",
+			"releaseYear": "2021",
+			"director": "Jon Watts",
+			"cast": "Tom Holland, Zendaya",
 			"genre": "Action, Comedy",
             "img":"spiderman.jpg"
 		},
         {
 			"id": "106",
 			"title": "The Expandables",
-			"releaseYear": "2010",
-			"director": "Mark Osborne",
-			"cast": "Jack Balck, Jackie chen",
-			"genre": "Action, Comedy",
+			"releaseYear": "2014",
+			"director": "Patrick Hughes",
+			"cast": "Sylvester Stallone, Jason Statham",
+			"genre": "Action",
             "img":"expandables.jpg"
 		}
 	]
