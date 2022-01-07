@@ -1,0 +1,57 @@
+{
+	"data": [{
+			"id": "101",
+			"title": "Kung Fu Panda",
+			"releaseYear": "2008",
+			"director": "Mark Osborne",
+			"cast": "Jack Balck, Jackie chen",
+			"genre": "Action, Comedy",
+            "img":"kungfupanda.jpg"
+		},
+		{
+			"id": "102",
+			"title": "Harry Potter",
+			"releaseYear": "2008",
+			"director": "Mark Osborne",
+			"cast": "Jack Balck, Jackie chen",
+			"genre": "Action, Comedy",
+            "img":"harrypotter.jpg"
+		},
+		{
+			"id": "103",
+			"title": "Avengers",
+			"releaseYear": "2010",
+			"director": "Mark Osborne",
+			"cast": "Jack Balck, Jackie chen",
+			"genre": "Action, Comedy",
+            "img":"avengers.jpg"
+		},
+        {
+			"id": "104",
+			"title": "Avatar",
+			"releaseYear": "2009",
+			"director": "Mark Osborne",
+			"cast": "Jack Balck, Jackie chen",
+			"genre": "Action, Comedy",
+            "img":"avatar.jpg"
+		},
+        {
+			"id": "105",
+			"title": "Spider-Man",
+			"releaseYear": "2010",
+			"director": "Mark Osborne",
+			"cast": "Jack Balck, Jackie chen",
+			"genre": "Action, Comedy",
+            "img":"spiderman.jpg"
+		},
+        {
+			"id": "106",
+			"title": "The Expandables",
+			"releaseYear": "2010",
+			"director": "Mark Osborne",
+			"cast": "Jack Balck, Jackie chen",
+			"genre": "Action, Comedy",
+            "img":"expandables.jpg"
+		}
+	]
+}
