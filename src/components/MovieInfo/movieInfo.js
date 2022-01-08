@@ -10,7 +10,7 @@ const MovieInfo = (props) => {
   return (   
           <Grid container id='movie-info'>
           <Grid item xs={12}>
-            <img className={movieImg} src={'/'+img}/>
+            <img alt='movie-dp' className={movieImg} src={'/'+img}/>
           </Grid>
           <Grid item xs={12}>
             <span className={movieTitle}>{title}</span>
