@@ -5,7 +5,8 @@ const useStyles = makeStyles(() => ({
         background: '#000000',
         height:'40px',
         alignItems:'center',
-        justifyContent:'center'
+        justifyContent:'center',
+        fontWeight: 'bold'
     },
     catalogTitle:{
         display: 'flex',

@@ -8,15 +8,24 @@ const MovieInfo = (props) => {
   const { movieImg, movieTitle, movieReleaseYr, movieDirector}  = useStyles();
 
   return (   
-    <Grid container>
-    <Grid item xs={12}><img className={movieImg} src={'/'+img}/></Grid>
-    <Grid item xs={12}><span className={movieTitle}>{title}</span><span className={movieReleaseYr}>{'('+releaseYear+')'}</span></Grid>
-
-    <Grid item xs={12} className={movieDirector}><span>Director : {director}</span></Grid>
-    <Grid item xs={12}><span>Cast :{cast}</span></Grid>
-    <Grid item xs={12}><span>Genre :{genre}</span></Grid>
-     
- </Grid>
+          <Grid container id='movie-info'>
+          <Grid item xs={12}>
+            <img className={movieImg} src={'/'+img}/>
+          </Grid>
+          <Grid item xs={12}>
+            <span className={movieTitle}>{title}</span>
+            <span className={movieReleaseYr}>{'('+releaseYear+')'}</span>
+          </Grid>
+          <Grid item xs={12} className={movieDirector}>
+            <span><b>Director :</b> {director}</span>
+          </Grid>
+          <Grid item xs={12}>
+            <span><b>Cast :</b>{cast}</span>
+          </Grid>
+          <Grid item xs={12}>
+            <span><b>Genre :</b>{genre}</span>
+          </Grid>     
+        </Grid>
   );
 }
 

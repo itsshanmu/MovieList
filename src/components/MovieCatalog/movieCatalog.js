@@ -18,6 +18,7 @@ const MovieCatalog = () => {
 
 
 const movieList = useSelector(state => state.moviesList);
+
 const [movieData, setMovieData] = useState({});
 
 useEffect(() => { 

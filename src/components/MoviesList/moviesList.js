@@ -15,9 +15,14 @@ const MoviesList = (props) => {
   };
 
   return (   
-        <div className={root}>
-           {movieList && movieList.map((item,index) => (<Grid item className={index === movieIndex ? titleSelect : titleUnselect} onClick={()=>{handleMovieList(item,index)}}><span className={movieTitle}>{item.title}</span></Grid>)) }
-        </div>  
+           <div className={root} id='movie-list'>
+              { movieList && movieList.map((item,index) => (
+                  <Grid item className={index === movieIndex ? titleSelect : titleUnselect} onClick={()=>{handleMovieList(item,index)}}>
+                    <span className={movieTitle}>{item.title}</span>
+                  </Grid>
+                  ))
+              }
+          </div>  
   );
 }
 

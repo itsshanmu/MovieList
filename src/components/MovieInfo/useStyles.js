@@ -1,5 +1,4 @@
 import { makeStyles } from "@material-ui/core";
-import { Autocomplete } from "@material-ui/lab";
 
 const useStyles = makeStyles(() => ({ 
     movieImg:{      
@@ -10,7 +9,8 @@ const useStyles = makeStyles(() => ({
     },
     movieTitle:{
         fontSize :'20px',
-        paddingRight: '5px'
+        paddingRight: '5px',
+        fontWeight: 'bold'
     },
     movieReleaseYr:{
         fontSize :'20px'

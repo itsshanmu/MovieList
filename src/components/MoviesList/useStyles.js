@@ -1,7 +1,6 @@
 import { makeStyles } from "@material-ui/core";
 
-const useStyles = makeStyles(() => ({
- 
+const useStyles = makeStyles(() => ({ 
   titleUnselect:{
     display :'flex',
     background:'#EAEAEA',
@@ -12,7 +11,8 @@ const useStyles = makeStyles(() => ({
     display :'flex',
     background:'#9B9B9B',
     height: '30px',
-    alignItems: 'center'     
+    alignItems: 'center'   ,
+    fontWeight: 'bold'  
   },
   movieTitle :{  
     cursor: 'pointer'
